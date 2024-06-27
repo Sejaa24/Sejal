@@ -11,7 +11,9 @@ pip install fastapi uvicorn whisper transformers torch python-dotenv
 Start the Server
 Run the FastAPI server using:
 
-`uvicorn api_application:app --reload`
+```
+uvicorn api_application:app --reload
+```
 
 ## API Endpoint
 POST `/process-audio/`
