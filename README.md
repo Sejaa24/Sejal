@@ -28,12 +28,12 @@ Response:
 Example
 You can use `curl` to test the endpoint:
 
-sh
-Copy code
 curl -X POST `"http://localhost:8000/process-audio/" -F "file=@/path/to/your/audiofile.mp3"`
 ## Project Structure
-`.
+```
 ├── sejal.py         # Main FastAPI application
 ├── .env             # Environment variables (if needed)
 ├── README.md        # Project documentation
-`
+```
+
+
