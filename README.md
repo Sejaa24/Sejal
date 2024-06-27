@@ -3,7 +3,7 @@ This project is a FastAPI-based web service that allows users to upload audio fi
 ## Requirements
 Install the required libraries:
 
-`pip install fastapi uvicorn whisper transformers torch python-dotenv`
+```pip install fastapi uvicorn whisper transformers torch python-dotenv```
 
 ## Usage
 Start the Server
