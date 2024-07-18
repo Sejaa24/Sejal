@@ -21,14 +21,20 @@ Upload an audio file to transcribe, summarize, and extract timestamps.
 
 ## Request:
 *Method: POST
+
 *Content-Type: multipart/form-data
+
 *Form Data:
 `file`: 
   *The audio file to be processed (.wav, .mp3, etc.)
+  
 Response:
 *transcription: The full transcription of the audio.
+
 *summary_text: A summarized version of the transcription.
+
 *transcription_timestamps: Extracted timestamps with corresponding transcript segments.
+
 Example
 You can use `curl` to test the endpoint:
 
